@@ -5,9 +5,9 @@
 // It's been provided as a convenience to get you started writing code faster.
 //
 
-function helloWorld()
+function helloWorld($name)
 {
-	return "Hello, World!";
+	return "Hello, ".$name."!";
 }
 
 ?>

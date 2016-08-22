@@ -5,8 +5,10 @@
 // It's been provided as a convenience to get you started writing code faster.
 //
 
-function helloWorld($name)
+function helloWorld($name = null)
 {
+	if ($name == null)
+		$name = "World";
 	return "Hello, ".$name."!";
 }
 
